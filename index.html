@@ -9,17 +9,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css?v=3">
+    <link rel="stylesheet" href="style.css?v=6">
 </head>
 <body>
 
     <!-- NAVBAR -->
-   <nav class="navbar">
+    <nav class="navbar">
         <ul class="nav-links">
             <li><a href="#home">Trang chủ</a></li>
             <li><a href="#about">Giới thiệu</a></li>
+            <li><a href="#announcements">Thông báo</a></li>
             <li><a href="#members">Thành viên</a></li>
             <li><a href="#titles">Danh hiệu</a></li>
+            <li><a href="#funny-moments">Góc dìm</a></li>
             <li><a href="#gallery">Kỷ niệm</a></li>
         </ul>
     </nav>
@@ -39,13 +41,13 @@
         <div class="stats-grid">
             <div class="stat-card">
                 <i class="fa-solid fa-users"></i>
-                <h3>39</h3>
-                <p>Học sinh tăng động</p>
+                <h3>40+</h3>
+                <p>Học sinh năng động</p>
             </div>
             <div class="stat-card">
                 <i class="fa-solid fa-chalkboard-user"></i>
                 <h3>1</h3>
-                <p>GVCN </p>
+                <p>GVCN Tâm huyết</p>
             </div>
             <div class="stat-card">
                 <i class="fa-solid fa-trophy"></i>
@@ -55,16 +57,27 @@
         </div>
     </section>
 
+    <!-- ANNOUNCEMENTS SECTION (THÔNG BÁO) -->
+    <section id="announcements" class="section bg-light fade-in">
+        <h2 class="section-title">Thông Báo Mới</h2>
+        <div class="stats-grid">
+            <div class="stat-card" style="text-align: left;">
+                <i class="fa-solid fa-bullhorn" style="color: #e74c3c;"></i>
+                <h3 style="display:inline-block; margin-left: 10px;">Lịch trực nhật tuần này</h3>
+                <p style="margin-top: 10px;">Tổ 1 thực hiện trực nhật lớp học và hành lang từ thứ 2 đến thứ 7.</p>
+            </div>
+        </div>
+    </section>
+
     <!-- MEMBERS SECTION -->
-    <section id="members" class="section bg-light fade-in">
+    <section id="members" class="section fade-in">
         <h2 class="section-title">Ban Cán Sự Lớp</h2>
         <div class="cards-grid">
 
             <!-- Lớp Trưởng -->
             <div class="card hover-card">
                 <div class="avatar-wrapper">
-                    <!-- Bạn thay link ảnh thật của Đinh Nhật Nam vào thuộc tính src dưới đây -->
-                    <img src="https://scontent.fhan5-8.fna.fbcdn.net/v/t1.15752-9/795643313_1109796014949232_3317490907092585547_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=0024fc&_nc_ohc=V2LHYA85MpwQ7kNvwFBram3&_nc_oc=Ado4KfAUYwBptoX9vs2ei8t_DJ3UfIbz5EIKPADI-OXv-mbq2BlwyDHhDQMD7-BITts&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fhan5-8.fna&_nc_ss=7a22e&oh=03_Q7cD6QGXyukFMxKN3bLCAkPLsOath_oW73dnteKWkEjRrY74IQ&oe=6AC8B841" alt="Đinh Nhật Nam" class="avatar-img">
+                    <img src="794991353_916889551103926_5427656678021615071_n.jpg" alt="Đinh Nhật Nam" class="avatar-img">
                 </div>
                 <h3>Đinh Nhật Nam</h3>
                 <span class="role">Lớp Trưởng</span>
@@ -74,8 +87,7 @@
             <!-- Lớp Phó Học Tập -->
             <div class="card hover-card">
                 <div class="avatar-wrapper">
-                    <!-- Bạn thay link ảnh thật của Bùi Thị Duyên vào thuộc tính src dưới đây -->
-                    <img src="https://scontent.fhan5-1.fna.fbcdn.net/v/t39.30808-6/587093361_122184949850570293_2117068722828596217_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=zzbFDdaEoB8Q7kNvwG1WsYn&_nc_oc=AdobUbTag2Q-NSPmOd5XSvgdTBtGQT9phdiX9wt1I1C34MMRoLg7BSpXzRTT9I0wvUE&_nc_zt=23&_nc_ht=scontent.fhan5-1.fna&_nc_gid=BuUhTy86WV4gtlssX3JQzA&_nc_ss=7b2a8&oh=00_AQKqBzOvkMqULlPZ5wi737CZyYzGPkyw_H5d0ujyRTcmrA&oe=6AA72F18" alt="Bùi Thị Duyên" class="avatar-img">
+                    <img src="image_aa327d.jpg" alt="Bùi Thị Duyên" class="avatar-img">
                 </div>
                 <h3>Bùi Thị Duyên</h3>
                 <span class="role">Lớp Phó Học Tập</span>
@@ -85,8 +97,7 @@
             <!-- Lớp Phó Lao Động -->
             <div class="card hover-card">
                 <div class="avatar-wrapper">
-                    <!-- Bạn thay link ảnh thật của Lê Huy Hoàng vào thuộc tính src dưới đây -->
-                    <img src="https://scontent.fhan5-10.fna.fbcdn.net/v/t1.15752-9/798784432_2591248754673399_610020838048367453_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=0024fc&_nc_ohc=D6tZp2bcPmcQ7kNvwFPjkV_&_nc_oc=AdolLVynA5Ee7mAqcnAJbgmOHJSb2Kb37M_Epwc5W2O8lzJURCv9qsszi4f-JGbxZio&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fhan5-10.fna&_nc_ss=7a22e&oh=03_Q7cD6QFrTuV0xanejRQGQb_Q2EteBsakN_aR87OJ9QyNXoHrkQ&oe=6AC8BE81" alt="Lê Huy Hoàng" class="avatar-img">
+                    <img src="791586450_29408446732078323_5856071406998146771_n.jpg" alt="Lê Huy Hoàng" class="avatar-img">
                 </div>
                 <h3>Lê Huy Hoàng</h3>
                 <span class="role">Lớp Phó Lao Động</span>
@@ -96,8 +107,67 @@
         </div>
     </section>
 
+    <!-- TITLES SECTION (MỤC DANH HIỆU) -->
+    <section id="titles" class="section bg-light fade-in">
+        <h2 class="section-title">Danh Hiệu</h2>
+        <div class="stats-grid">
+            
+            <!-- Danh hiệu 1 -->
+            <div class="stat-card">
+                <i class="fa-solid fa-award" style="color: #f39c12;"></i>
+                <h3>Tên Danh Hiệu 1</h3>
+                <p>Mô tả ngắn về danh hiệu ở đây...</p>
+            </div>
+
+            <!-- Danh hiệu 2 -->
+            <div class="stat-card">
+                <i class="fa-solid fa-medal" style="color: #e74c3c;"></i>
+                <h3>Tên Danh Hiệu 2</h3>
+                <p>Mô tả ngắn về danh hiệu ở đây...</p>
+            </div>
+
+            <!-- Danh hiệu 3 -->
+            <div class="stat-card">
+                <i class="fa-solid fa-star" style="color: #f1c40f;"></i>
+                <h3>Tên Danh Hiệu 3</h3>
+                <p>Mô tả ngắn về danh hiệu ở đây...</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FUNNY MOMENTS / GÓC DÌM (SLIDER CHUYỂN ẢNH) -->
+    <section id="funny-moments" class="section fade-in">
+        <h2 class="section-title">Góc Dìm 9A1 😂</h2>
+        <div class="slider-container">
+            <button class="slider-btn prev-btn" onclick="moveSlide(-1)"><i class="fa-solid fa-chevron-left"></i></button>
+            
+            <div class="slider-wrapper">
+                <div class="slides">
+                    <!-- Ảnh Dìm 1 -->
+                    <div class="slide">
+                        <img src="791586450_29408446732078323_5856071406998146771_n.jpg" alt="Ảnh dìm 1">
+                        <p class="caption">Dáng ngồi chuẩn học sinh chăm ngoan</p>
+                    </div>
+                    <!-- Ảnh Dìm 2 -->
+                    <div class="slide">
+                        <img src="794991353_916889551103926_5427656678021615071_n.jpg" alt="Ảnh dìm 2">
+                        <p class="caption">Thanh niên ngơ ngác giữa giờ ra chơi</p>
+                    </div>
+                    <!-- Ảnh Dìm 3 -->
+                    <div class="slide">
+                        <img src="image_aa327d.jpg" alt="Ảnh dìm 3">
+                        <p class="caption">Thần thái đỉnh cao dưới nắng sân trường</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="slider-btn next-btn" onclick="moveSlide(1)"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </section>
+
     <!-- GALLERY SECTION -->
-    <section id="gallery" class="section fade-in">
+    <section id="gallery" class="section bg-light fade-in">
         <h2 class="section-title">Khoảnh Khắc Kỷ Niệm</h2>
         <div class="gallery-grid">
             <div class="gallery-item">
@@ -109,7 +179,7 @@
                 <div class="overlay">Hoạt động ngoại khóa</div>
             </div>
             <div class="gallery-item">
-                <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/797357525_1051587361013035_4647969827344428994_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=0024fc&_nc_ohc=l9njjTze_a8Q7kNvwFb2s_K&_nc_oc=AdpeZN73iADAq9rmwQEnzClCfJ-e_j364YM5z8PZGLMCOut2RtIP6uq0c7-wyCRIr04&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fhan5-6.fna&_nc_ss=7a22e&oh=03_Q7cD6QGPC8KybmhCbdnc9-VQNPI0FwE6TyiwIt8ht5iTmdrUEA&oe=6AC8B50C" alt="Kỷ niệm">
+                <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&auto=format&fit=crop" alt="Kỷ niệm">
                 <div class="overlay">Vui chơi cùng nhau</div>
             </div>
         </div>
@@ -117,8 +187,27 @@
 
     <!-- FOOTER -->
     <footer>
-        <p>&copy; 2026 Tập thể Lớp 9A1. Được tạo bởi Hoanggane.</p>
+        <p>&copy; Năm học 2026 - 2027 | Tập thể Lớp 9A1</p>
     </footer>
+
+    <!-- SCRIPT ĐIỀU KHIỂN SLIDER GÓC DÌM -->
+    <script>
+        let currentSlide = 0;
+        function moveSlide(direction) {
+            const slides = document.querySelectorAll('.slide');
+            const totalSlides = slides.length;
+            
+            currentSlide += direction;
+            if (currentSlide < 0) {
+                currentSlide = totalSlides - 1;
+            } else if (currentSlide >= totalSlides) {
+                currentSlide = 0;
+            }
+            
+            const slidesContainer = document.querySelector('.slides');
+            slidesContainer.style.transform = `translateX(-${currentSlide * 100}%)`;
+        }
+    </script>
 
 </body>
 </html>

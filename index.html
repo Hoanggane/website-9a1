@@ -9,13 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
 
     <!-- NAVBAR -->
     <nav class="navbar">
-        <div class="logo"><i class="fa-solid fa-graduation-cap"></i> CLASS 9A1</div>
         <ul class="nav-links">
             <li><a href="#home">Trang chủ</a></li>
             <li><a href="#about">Giới thiệu</a></li>
@@ -28,15 +27,16 @@
     <header id="home" class="hero">
         <div class="hero-content">
             <span class="badge">Niên khóa 2022 - 2026</span>
-            <h1>Chào Mừng Đến Với Tập Thể <span>Lớp 9A1</span></h1>
-            <p>Đoàn kết - Học tốt - Bứt phá mọi giới hạn!</p>
-            <a href="#about" class="btn">Khám phá ngay</a>
+            <!-- TÊN LỚP NỔI BẬT Ở GIỮA VỚI HIỆU ỨNG ANIMATION -->
+            <h1 class="animated-class-title">CLASS 9A1</h1>
+            <p class="sub-title">Đoàn kết - Học tốt - Bứt phá mọi giới hạn!</p>
+            <a href="#about" class="btn pulse-btn">Khám phá ngay</a>
         </div>
     </header>
 
     <!-- ABOUT SECTION -->
-    <section id="about" class="section">
-        <h2>Về Chúng Tôi</h2>
+    <section id="about" class="section fade-in">
+        <h2 class="section-title">Về Chúng Tôi</h2>
         <div class="stats-grid">
             <div class="stat-card">
                 <i class="fa-solid fa-users"></i>
@@ -57,34 +57,49 @@
     </section>
 
     <!-- MEMBERS SECTION -->
-    <section id="members" class="section bg-light">
-        <h2>Ban Cán Sự Lớp</h2>
+    <section id="members" class="section bg-light fade-in">
+        <h2 class="section-title">Ban Cán Sự Lớp</h2>
         <div class="cards-grid">
-            <div class="card">
-                <img src=
-                <div class="avatar"><i class="fa-solid fa-user-tie"></i></div>
+
+            <!-- Lớp Trưởng -->
+            <div class="card hover-card">
+                <div class="avatar-wrapper">
+                    <!-- Bạn thay link ảnh thật của Đinh Nhật Nam vào thuộc tính src dưới đây -->
+                    <img srchttps://scontent.fhan5-11.fna.fbcdn.net/v/t1.15752-9/794991353_916889551103926_5427656678021615071_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=9f807c&_nc_ohc=66s6X4DI1PYQ7kNvwFL1TMR&_nc_oc=AdrJvdEBHBN9dBhp_SS8QOgkHArJcWaA3XTpV5JNnbPJPSvivQxunb1oayhL1PCRgws&_nc_zt=23&_nc_ht=scontent.fhan5-11.fna&_nc_ss=7b2a8&oh=03_Q7cD6QEb0rBsKjLaiomjun7-Z-oV-SwRk1AxBvrJMZKvOQLXbw&oe=6AC8AFEC" alt="Đinh Nhật Nam" class="avatar-img">
+                </div>
                 <h3>Đinh Nhật Nam</h3>
                 <span class="role">Lớp Trưởng</span>
                 <p>Ngoài cái lười ra thì ăn nhiều.</p>
             </div>
-            <div class="card">
-                <div class="avatar"><i class="fa-solid fa-user-gear"></i></div>
+
+            <!-- Lớp Phó Học Tập -->
+            <div class="card hover-card">
+                <div class="avatar-wrapper">
+                    <!-- Bạn thay link ảnh thật của Bùi Thị Duyên vào thuộc tính src dưới đây -->
+                    <img src="https://scontent.fhan5-1.fna.fbcdn.net/v/t39.30808-6/587093361_122184949850570293_2117068722828596217_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=zzbFDdaEoB8Q7kNvwG1WsYn&_nc_oc=AdobUbTag2Q-NSPmOd5XSvgdTBtGQT9phdiX9wt1I1C34MMRoLg7BSpXzRTT9I0wvUE&_nc_zt=23&_nc_ht=scontent.fhan5-1.fna&_nc_gid=BuUhTy86WV4gtlssX3JQzA&_nc_ss=7b2a8&oh=00_AQKqBzOvkMqULlPZ5wi737CZyYzGPkyw_H5d0ujyRTcmrA&oe=6AA72F18" alt="Bùi Thị Duyên" class="avatar-img">
+                </div>
                 <h3>Bùi Thị Duyên</h3>
                 <span class="role">Lớp Phó Học Tập</span>
                 <p>Toàn diện nhất lớp: ăn ngủ và ỉa.</p>
             </div>
-            <div class="card">
-                <img src="https://scontent.fhan5-10.fna.fbcdn.net/v/t1.15752-9/798784432_2591248754673399_610020838048367453_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=0024fc&_nc_ohc=D6tZp2bcPmcQ7kNvwFPjkV_&_nc_oc=AdolLVynA5Ee7mAqcnAJbgmOHJSb2Kb37M_Epwc5W2O8lzJURCv9qsszi4f-JGbxZio&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fhan5-10.fna&_nc_ss=7a22e&oh=03_Q7cD6QFrTuV0xanejRQGQb_Q2EteBsakN_aR87OJ9QyNXoHrkQ&oe=6AC8BE81" alt="Lê Huy Hoàng" class=""avatar-img">
-                      <h3>Lê Huy Hoàng</h3>
+
+            <!-- Lớp Phó Lao Động -->
+            <div class="card hover-card">
+                <div class="avatar-wrapper">
+                    <!-- Bạn thay link ảnh thật của Lê Huy Hoàng vào thuộc tính src dưới đây -->
+                    <img src="https://scontent.fhan5-10.fna.fbcdn.net/v/t1.15752-9/798784432_2591248754673399_610020838048367453_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=0024fc&_nc_ohc=D6tZp2bcPmcQ7kNvwFPjkV_&_nc_oc=AdolLVynA5Ee7mAqcnAJbgmOHJSb2Kb37M_Epwc5W2O8lzJURCv9qsszi4f-JGbxZio&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fhan5-10.fna&_nc_ss=7a22e&oh=03_Q7cD6QFrTuV0xanejRQGQb_Q2EteBsakN_aR87OJ9QyNXoHrkQ&oe=6AC8BE81" alt="Lê Huy Hoàng" class="avatar-img">
+                </div>
+                <h3>Lê Huy Hoàng</h3>
                 <span class="role">Lớp Phó Lao Động</span>
-                <p>Đẹp trai,học giỏi,gì cũng tốt nhưng lười.</p>
+                <p>Đẹp trai, học giỏi, gì cũng tốt nhưng lười.</p>
             </div>
+
         </div>
     </section>
 
     <!-- GALLERY SECTION -->
-    <section id="gallery" class="section">
-        <h2>Khoảnh Khắc Kỷ Niệm</h2>
+    <section id="gallery" class="section fade-in">
+        <h2 class="section-title">Khoảnh Khắc Kỷ Niệm</h2>
         <div class="gallery-grid">
             <div class="gallery-item">
                 <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&auto=format&fit=crop" alt="Học tập">
@@ -103,7 +118,7 @@
 
     <!-- FOOTER -->
     <footer>
-        <p>&copy; 2026 Tập thể Lớp 9A1. Được tạo với <i class="fa-solid fa-heart" style="color: #e74c3c;"></i> bởi Hoanggane.</p>
+        <p>&copy; 2026 Tập thể Lớp 9A1. Được tạo bởi Hoanggane.</p>
     </footer>
 
 </body>
